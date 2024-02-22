@@ -6,10 +6,10 @@
  }
  body{
      min-height: 100vh;
-     background-image: url(images/kitchen-7471627.jpg); 
+     /* background-image: url(images/kitchen-7471627.jpg);  */
      background-color: white;
      background-size: cover; 
-    background-position: center; 
+     
       
     
     
@@ -59,17 +59,20 @@
 
  }
  section{
-   padding: 2rem 9%;
+   /* padding: 2rem 9%; */
  }
  .home{
    display: flex;
    align-items:center;
    min-height: 100vh;
-   color: white;
+   background: url(images/kitchen-7471627.jpg)no-repeat;
+   background-size: cover;
+   background-position: center
+    
    
  }
  .home .content{
-   max-width: 50rem;
+   max-width: 60rem;
  }
  .home .content h3{
    font-size: 6rem;
@@ -103,5 +106,55 @@
 
 .btn:hover{
    background: red;
+}
+.heading{
+  text-align: center;
+  font-size: 4rem;
+  color: #333;
+  padding: 1rem;
+  margin: ;
+  background: rgba(red, green, blue, alpha);
+
+}
+.heading span{
+  color: red;
+}
+
+ 
+
+.about .row{
+  display: flex;
+  justify-content: center;
+  display: flex;
+  /* align-items: center; */
+  /* gap: 2rem; */
+  flex-wrap: wrap;
+  /* padding: 2rem 0; */
+  padding-bottom: 3rem;
+}
+.about .row .vidieo-container{
+ float:center;
+  flex: 1 1 40rem;
+  position: relative;
+  /* display: flex; */
+  align-items:center;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-position: center
+   
+}
+
+.about .row .vidieo-container video{
+  /* display: flex; */
+  align-items:center;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-position: center
+  
+ 
 }
  
