@@ -1,0 +1,105 @@
+*{
+
+    margin: opx;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+    /* background-image: url(images/kitchen-7471627.jpg);  */
+    background-color: white;
+    background-size: cover; 
+    
+     
+   
+   
+
+}
+.header{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 100px;
+   background: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+
+
+}
+.logo{
+  font-size: 34px;
+  color: white;
+  text-decoration: none;
+  font-weight: 800; 
+}
+.navbar a{
+   position: relative;
+   font-size: 23px;
+   color:white;
+   font-weight:800 ;
+   text-decoration: none;
+   margin-left: 40px;
+
+}
+.navbar a::before{
+   content: '';
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 0%;
+   height: 4px;
+   background:red;
+   transition: .3s;
+}
+.navbar a:hover::before{
+   width: 100%;
+
+}
+s
+body{
+    font-family: Arial ;
+    background-color: black;
+    
+}
+.cards{
+    width: 20%;
+    display: inline-block;
+    background-color: wheat;
+    border-radius: 5px;
+    margin: 40px;
+    margin-top: 120px;
+   
+}
+.cards:hover{
+    box-shadow: 2px 2px 30px black;
+
+}
+.image img{
+    width: 100%;
+    
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+.title{
+    text-align: center;
+    padding: 5px;
+}
+.des{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    transition: .5s;
+}
