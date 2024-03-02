@@ -70,6 +70,7 @@ body{
     border-radius: 5px;
     margin: 40px;
     margin-top: 120px;
+    padding:auto;
    
 }
 .cards:hover{
